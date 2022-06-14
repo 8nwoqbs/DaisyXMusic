@@ -33,7 +33,7 @@ def _start(client, message):
                         "💬 Support", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                 ],
-                [InlineKeyboardButton("🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")],
+                [InlineKeyboardButton("🛠 Source Code 🛠", url=f"https://github.com/8nwoqbs/DaisyXMusic")],
             ]
         ),
         reply_to_message_id=message.message_id,
@@ -109,7 +109,7 @@ def map(pos):
             ],
             [
                 InlineKeyboardButton(
-                    text="🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}"
+                    text="🛠 Source Code 🛠", url=f"https://github.com/8nwoqbs/DaisyXMusic"
                 )
             ],
             [InlineKeyboardButton(text="◀️", callback_data=f"help+{pos-1}")],
